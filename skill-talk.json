@@ -1,0 +1,965 @@
+{
+  "intents": [
+    {
+      "intent": "Approve_Response",
+      "examples": [
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Confirm_Presence",
+      "examples": [
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "farewell",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "bye Bye"
+        },
+        {
+          "text": "Finally bye bye"
+        },
+        {
+          "text": "Good-bye"
+        },
+        {
+          "text": "No need to thank bye bye"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "Sorry, I only did what was required"
+        },
+        {
+          "text": "Thanks.. bye bye"
+        },
+        {
+          "text": "You are welcome"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Language",
+      "examples": [
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "ساعدني"
+        },
+        {
+          "text": "لدي مشكلة"
+        },
+        {
+          "text": "لو سمحت"
+        },
+        {
+          "text": "هالو"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "ياهلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Problems",
+      "examples": [
+        {
+          "text": "case"
+        },
+        {
+          "text": "I have a problem"
+        },
+        {
+          "text": "issue"
+        },
+        {
+          "text": "my problem"
+        },
+        {
+          "text": "nodu"
+        },
+        {
+          "text": "snag"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Problem_with_page",
+      "examples": [
+        {
+          "text": "I'm having trouble viewing the page"
+        },
+        {
+          "text": "Page is down"
+        },
+        {
+          "text": "The page has a malfunction"
+        },
+        {
+          "text": "The page is not working"
+        },
+        {
+          "text": "The problem is on the page"
+        },
+        {
+          "text": "This page has a bug"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Reject_Response",
+      "examples": [
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Standby",
+      "examples": [
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "welcome",
+      "examples": [
+        {
+          "text": "alsalam ealaykum warahmat allah wabarakatuh"
+        },
+        {
+          "text": "Hallo!"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi!"
+        },
+        {
+          "text": "how are you"
+        },
+        {
+          "text": "hy"
+        },
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله"
+        },
+        {
+          "text": "السلام عليكم ورحمة الله وبركاته"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1626097327677",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "The language ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I only speak English "
+              },
+              {
+                "text": "Sorry, my language is English "
+              },
+              {
+                "text": "sorry english only "
+              },
+              {
+                "text": "sorry english speaking "
+              },
+              {
+                "text": "I'm sorry I don't understand Arabic "
+              },
+              {
+                "text": "I'm sorry I don't understand Arabic, please in English and I will help you "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Language",
+      "dialog_node": "node_2_1626093025298",
+      "previous_sibling": "node_3_1626089081062"
+    },
+    {
+      "type": "standard",
+      "title": "start over",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I told you before"
+              },
+              {
+                "text": "I told you above "
+              },
+              {
+                "text": "What do you think "
+              },
+              {
+                "text": "what is your decision "
+              },
+              {
+                "text": "Help me I told you "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Start_Over",
+      "dialog_node": "node_2_1626094467360",
+      "previous_sibling": "node_4_1626094196207"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Presence",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok \n"
+              },
+              {
+                "text": "Waiting for you"
+              },
+              {
+                "text": "I'm waiting "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Confirm_Presence",
+      "dialog_node": "node_2_1626095265807",
+      "previous_sibling": "node_7_1626095059956"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hi"
+              },
+              {
+                "text": "hello ask me "
+              },
+              {
+                "text": "hey go ahead "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#welcome",
+      "dialog_node": "node_3_1626089081062",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Problems",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please enter "
+              },
+              {
+                "text": "Enter the subject "
+              },
+              {
+                "text": "do not hesitate"
+              },
+              {
+                "text": "Don't hesitate.. go ahead "
+              },
+              {
+                "text": "Yeah .."
+              },
+              {
+                "text": "yes complete "
+              },
+              {
+                "text": "Yeah complete "
+              },
+              {
+                "text": "complete"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Problems",
+      "dialog_node": "node_4_1626091689972",
+      "previous_sibling": "node_2_1626093025298"
+    },
+    {
+      "type": "standard",
+      "title": "Unsure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't know "
+              },
+              {
+                "text": "I don't know what the problem is "
+              },
+              {
+                "text": "Ummm"
+              },
+              {
+                "text": "not sure "
+              },
+              {
+                "text": "Not sure about the problem "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Unsure",
+      "dialog_node": "node_4_1626094196207",
+      "previous_sibling": "node_4_1626091689972"
+    },
+    {
+      "type": "standard",
+      "title": "Problem",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refresh the page "
+              },
+              {
+                "text": "Check the quality of the internet "
+              },
+              {
+                "text": "Check your internet speed "
+              },
+              {
+                "text": "Make sure you are in a place where there is internet "
+              },
+              {
+                "text": "Close the page and open it again "
+              },
+              {
+                "text": "Shut down the whole computer and restart it "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1626091689972",
+      "conditions": "#Problem_with_page",
+      "dialog_node": "node_5_1626092588043"
+    },
+    {
+      "type": "standard",
+      "title": "Standby",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm late for you "
+              },
+              {
+                "text": "Forgive me for being late "
+              },
+              {
+                "text": "Wait for me "
+              },
+              {
+                "text": "Wait "
+              },
+              {
+                "text": "Moment"
+              },
+              {
+                "text": "Minute"
+              },
+              {
+                "text": "wait a moment"
+              },
+              {
+                "text": "Wait a minute "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Standby",
+      "dialog_node": "node_6_1626094755351",
+      "previous_sibling": "node_2_1626094467360"
+    },
+    {
+      "type": "standard",
+      "title": "Reject Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "love me"
+              },
+              {
+                "text": "I love you "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Reject_Response",
+      "dialog_node": "node_7_1626095059956",
+      "previous_sibling": "node_6_1626094755351"
+    },
+    {
+      "type": "standard",
+      "title": "Approve_Response",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I solved it "
+              },
+              {
+                "text": "solved "
+              },
+              {
+                "text": "You are true "
+              },
+              {
+                "text": "problem gone"
+              },
+              {
+                "text": "end of the problem "
+              },
+              {
+                "text": "finally end of the problem "
+              },
+              {
+                "text": "finally"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Approve_Response",
+      "dialog_node": "node_8_1626096227468",
+      "previous_sibling": "node_2_1626095265807"
+    },
+    {
+      "type": "standard",
+      "title": "farewell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank"
+              },
+              {
+                "text": "Done"
+              },
+              {
+                "text": " Thank Done"
+              },
+              {
+                "text": "bye"
+              },
+              {
+                "text": "bye bye"
+              },
+              {
+                "text": "Pip-Pip!"
+              },
+              {
+                "text": "Good-Bye!"
+              },
+              {
+                "text": "Cheerio!"
+              },
+              {
+                "text": "thank you so much "
+              },
+              {
+                "text": "Praise be to god!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#farewell",
+      "dialog_node": "node_8_1626097327677",
+      "previous_sibling": "node_8_1626096227468"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "talk",
+  "language": "en",
+  "description": ""
+}
